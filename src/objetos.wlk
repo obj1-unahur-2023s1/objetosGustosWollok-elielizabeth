@@ -23,15 +23,13 @@ object remera {
 	method material() { return lino }
 	method peso() { return 800 }
 }
-
 object pelota {
 	method color() { return pardo } 
 	method material() { return cuero }  
 	method peso() { return 1300 }  
 }
-
 object biblioteca{
-  method color() { return verde } 
+  	method color() { return verde } 
 	method material() { return madera }  
 	method peso() { return 8000 } 
 }
@@ -45,14 +43,13 @@ object munieco {
 	method peso() { return peso }
 	method setPeso(pesoNuevo) { peso = pesoNuevo }
 }
-
 object placa{
-  var peso
-  var color
+  	var peso
+  	var color
   
-  method color() { return color }
+  	method color() { return color }
 	method material() { return cobre }
 	method peso() { return peso }
-  method setPeso(pesoNuevo){ peso = pesoNuevo }
-  method setColor(colorNuevo){ color = colorNuevo }
+  	method setPeso(pesoNuevo){ peso = pesoNuevo }
+ 	method setColor(colorNuevo){ color = colorNuevo }
 }
